@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title> Self 설문조사 </title>
+	<link href = "css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div id="header">
+		<div id="header_top">
+			<div id="header_left">
+				<img src="./images/binbin.png" alt="intoductionlogo">
+			</div>
+		</div>
+	</div>
+	<div id='cssmenu'>
+		<ul>
+			<li><a href='index.html'><span>Home</span></a></li>
+   			<li><a href='index2.html'><span>Introduction</span></a></li>
+   			<li class='active '><a href='index3.html'><span>Survey</span></a></li>
+  			<li><a href='index4.html'><span>Favorite Movie</span></a></li>
+  			<li><a href='index5.html'><span>Favorite Music</span></a></li>
+		</ul>
+	</div>
+	
+	<div id='index3'>
+	<h1>YouBin's Research</h1>
+	<form>
+		<table>
+			<tr>
+				<td> 내 이름은? </td>
+				<td> <input type="text" name="name"> </td>
+			</tr>
+			<tr>
+				<td> 내 생년월일은? </td>
+				<td> <input type="text" name="birthday"> </td>
+			</tr>
+			<tr>
+				<td> 내가 좋아하는 음식은? </td>
+				<td> <input type="text" name="food"> </td>
+			</tr>
+			<tr>
+				<td> 재학중인 학년은? </td>
+				<td> <input type="radio" name="class" value="one">1학년
+					<input type="radio" name="class" value="two">2학년
+					<input type="radio" name="class" value="three">3학년
+					<input type="radio" name="class" value="four">4학년
+				</td>
+			</tr>
+			<tr>
+				<td> 무슨 과일까요? </td>
+				<td> <select name="major">
+					<option value="computer">컴퓨터공학과</option>
+					<option value="machine">기계공학과</option>
+					<option value="electronic">전기공학과</option>
+					<option value="chemical">화학공학과</option>
+					<option value="biology">생명공학과</option>
+					<option value="architector">건축학과</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td> 사는 곳은? </td>
+				<td> <input type="radio" name="city" value="seoul">서울
+					<input type="radio" name="city" value="kyeonggido">경기도
+					<input type="radio" name="city" value="kangwondo">강원도
+					<input type="radio" name="city" value="kyeongsangdo">경상도
+					<input type="radio" name="city" value="jeonlado">전라도
+					<input type="radio" name="city" value="jeju">제주도
+				</td>
+			</tr>
+			<tr>
+				<td> 주말에 주로 하는 일은? </td>
+				<td> <input type="text" name="weektime"> </td>
+			</tr>
+			<tr>
+				<td> 별명은? </td>
+				<td> <input type="radio" name="nickname" value="monkey">원숭이
+					<input type="radio" name="nickname" value="chiken">닭
+					<input type="radio" name="nickname" value="bear">백곰
+					<input type="radio" name="nickname" value="owl">부엉이
+					<input type="radio" name="nickname" value="tiger">호랑이
+				</td>
+			</tr>
+			<tr>
+				<td> 여행가보고 싶은 나라는? </td>
+				<td> <input type="checkbox" name="travel" value="영국"> 영국
+				<input type="checkbox" name="travel" value="체코"> 체코 
+				<input type="checkbox" name="travel" value="독일"> 독일
+				<input type="checkbox" name="travel" value="미국"> 미국
+				<input type="checkbox" name="travel" value="인도"> 인도
+				<input type="checkbox" name="travel" value="네덜란드"> 네덜란드
+				</td>
+			</tr>
+			<tr>
+				<td> 좋아하는 색은? </td>
+				<td> <input type="radio" name="color" value="red">빨간색
+					<input type="radio" name="color" value="orange">주황색
+					<input type="radio" name="color" value="yellow">노란색
+					<input type="radio" name="color" value="green">초록색
+					<input type="radio" name="color" value="blue">파란색
+					<input type="radio" name="color" value="pupple">보라색
+					<input type="radio" name="color" value="white">흰색
+				</td>
+			</tr>
+			<tr>
+				<td> 좋아하는 취미는? </td>
+				<td> <input type="checkbox" name="hobby" value="독서"> 독서
+				<input type="checkbox" name="hobby" value="게임"> 게임 
+				<input type="checkbox" name="hobby" value="음악감상"> 음악감상
+				<input type="checkbox" name="hobby" value="영화감상"> 영화감상
+				<input type="checkbox" name="hobby" value="여행"> 여행
+				<input type="checkbox" name="hobby" value="기타"> 기타
+				</td>
+			</tr>
+			<tr>
+				<td> 기타 하고 싶은 말은? </td>
+				<td> <textarea rows="7" cols="60" name="intro"> 기타사항을 적어주세요 </textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="button" value="완료">
+					<input type="reset" value="취소">
+				</td>
+			</tr>
+		</table>	
+	</form>
+	</div>
+</body>

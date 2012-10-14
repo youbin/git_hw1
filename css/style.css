@@ -1,0 +1,69 @@
+
+body{background-image: url('../images/dot.gif'); width: 960px; margin:0 auto;
+	 font-family: Comic Sans MS, Segoe Print, 휴먼편지체, Candara;}
+
+
+
+#header{background:url(../images/rose.jpg); width:960px; height:170px; border-bottom: 1px solid #999;
+		border-radius: 15px 15px 0  0; margin-top: 30px;}
+#top {width:900px; color: #eee; padding:0 10px 15px 0; text-align: right; font-weight: bold;}
+#header_left{width:600px; float: left; padding: 40px; height: 80px;}
+
+
+
+
+#index1 table, tr, td{ font-size: x-large; margin: 0 auto; text-align: center;}
+#index1 tr{	font-size: 20px;}
+#index1 h1{ margin-top: 50px; }
+#index1 { font-size: xx-large; margin: 0 auto; text-align: center; 
+	color:#B70000; }
+
+
+
+#index2 div{font-size: xx-large; margin: 0 auto; margin-top: 50px;
+	text-align: center; color: #B70000;}
+#index2 ul{ font-size: large; font-weight: bold; margin: 0 auto;
+	text-align: center; color: #B70000; }
+
+
+
+#index3 table, tr, td{ font-family: HY바다L, HY나무B, 한컴 바겐세일 B, HY엽서M; font-size: large; margin: 0 auto; text-align: center;
+	border: 1px solid #ff0066; width: 750px; height: 40px; }
+#index3 tr{ font-size: x-large; font-weight: bold; }
+#index3 h1{font-size: 35px; font-weight: bold; color: #B70000;
+	margin: 0 auto; text-align: center; margin-top: 20px; margin-bottom: 20px; }
+
+
+
+#index4 img{ margin-right: 30px; }
+#index4 h1{ font-size: 40px; font-weight: bold; color: #DC143C; margin: 0 auto;
+	text-align: center; margin-top: 20px; margin-bottom: 20px; color: #B70000;}
+#index4 li{ font-family: HY바다L, HY나무B, 한컴 바겐세일 B, HY엽서M; font-size: 21px;}
+#left { float:left; }
+#left2 { float:left; }
+#left3 { float:left; }
+#left4 { float:left; }
+#left5 { float:left; }
+
+
+
+
+#cssmenu{border:none; margin-top: -20px; margin-left: 0px; margin-right: 0px; padding:0px;
+	font-family:verdana,arial,helvetica,sans-serif; font-size:14px; font-weight:bold; color: #8e8e8e;}
+#cssmenu ul{ background:url(../images/menu-bg.gif) top left repeat-x; height:43px; list-style:none;
+	margin-right: 0px; padding:0; }
+#cssmenu li{ float:left; padding:0px 8px 0px 8px; }
+#cssmenu li a{ color:#666666; display:block; font-weight:bold; line-height:43px; padding:0px 25px; 
+	text-align:center; text-decoration:none; }
+#cssmenu li a:hover{ color:#000000; text-decoration:none; }
+#cssmenu li ul{ background:#e0e0e0; border-left:2px solid #a80329; border-right:2px solid #a80329;
+	border-bottom:2px solid #a80329; display:none; height:auto; opacity:0.95;
+	position:absolute; width:225px; z-index:200;}
+#cssmenu li:hover ul{ display:block;}
+#cssmenu li li { display:block; float:none; padding:0px; width:225px;}
+#cssmenu li ul a{ display:block; font-size:12px; font-style:normal; padding:0px 10px 0px 15px; 
+	text-align:left;}
+#cssmenu li ul a:hover{ background:#949494; color:#000000; opacity:1.0; } 
+#cssmenu p{ clear:left; }	
+#cssmenu .active > a{ background:url(../images/current-bg.gif) top left repeat-x; color:#ffffff;}
+#cssmenu .active > a:hover { color:#ffffff;}
